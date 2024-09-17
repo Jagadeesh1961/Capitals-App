@@ -1,0 +1,95 @@
+.app-container {
+  background-color: #93c5fd;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.capitals-container {
+  background-color: white;
+  width: 90%;
+  max-width: 450px;
+  height: 200px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    font-size: 26px;
+  }
+}
+
+.select-tag {
+  background-color: white;
+  padding: 6px;
+  font-size: 12px;
+
+  border: 1px solid #cbd2d9;
+  font-family: 'Roboto';
+  border-radius: 6px;
+  font-weight: 500;
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .select-tag {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+}
+
+.label-name {
+  color: #000000;
+  padding-left: 10px;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .label-name {
+    font-size: 18px;
+  }
+}
+
+.country {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-weight: 600;
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .country {
+    font-size: 22px;
+    font-weight: 500;
+  }
+}
+
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
